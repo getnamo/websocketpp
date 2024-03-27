@@ -71,7 +71,7 @@ namespace lib {
 
 #ifdef ASIO_STANDALONE
     namespace asio {
-        using namespace ::asio;
+        using namespace ::asio_sockio;
         // Here we assume that we will be using std::error_code with standalone
         // Asio. This is probably a good assumption, but it is possible in rare
         // cases that local Asio versions would be used.
